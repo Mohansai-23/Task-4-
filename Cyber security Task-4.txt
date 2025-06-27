@@ -1,0 +1,10 @@
+* Open run by pressing windows+R
+* Open the Windows Firewall through wf.msc
+
+* Open the advanced Firewall Settings.
+* Listed current inbound rules under Inbound Rules.
+* Add Inbound rule to block TCP port 23
+* Select new rule and select type as Port-> continue-> enter port no-23 ->continue ->in profile select Domain, Private, Public.
+
+* Tested Telnet connection to confirm the port is blocked.
+* Delete the rule to restore the original settings.
